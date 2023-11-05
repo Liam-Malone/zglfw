@@ -2,7 +2,7 @@
 
 This is basically a little test project for me to try out using glfw and vulkan
 
-Up until this point all my graphical programs have used [SDL2]() which is a great project, but I want to understand what's happening underneath to a greater degree.
+Up until this point all my graphical programs have used [SDL2](https://www.libsdl.org) which is a great project, but I want to understand what's happening underneath to a greater degree.
 
 ## Getting Started
 
