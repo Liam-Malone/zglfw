@@ -8,7 +8,7 @@ Up until this point all my graphical programs have used [SDL2](https://www.libsd
 
 If for some reason you would like to run this program yourself, it can be compiled using a nightly build of zig -- which should work on any platform
 
-> NOTE: currently this program doesn't do anything, except exit when you hit <Esc>
+> NOTE: currently this program doesn't do anything, except exit when you hit escape
 
 Currently included dependencies:
  - mach-glfw
