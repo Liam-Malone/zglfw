@@ -26,6 +26,10 @@ pub fn build(b: *std.Build) void {
         .optimize = optimize,
     }).module("mach-gamemode"));
 
+    // vulkan
+    const vulkan_dep = b.dependency("vulkan", .{});
+    exe.addModule("vulkan", vulkan_dep.module("vulkan-zig-generated"));
+
     b.installArtifact(exe);
 
     const run_cmd = b.addRunArtifact(exe);

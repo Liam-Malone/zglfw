@@ -1,5 +1,5 @@
 .{ 
-    .name = "mach-glfw",
+    .name = "zglfw",
     .version = "0.1.0",
     .paths = .{
         "src/",
@@ -16,6 +16,10 @@
         .mach_gamemode = .{
             .url = "https://pkg.machengine.org/mach-gamemode/a020ce1.tar.gz",
             .hash = "122033bae174097c3236afaf934f56c35abfa7b68238abacc4a7df9c0ff43c29ed2e",
+        },
+        .vulkan = .{
+            .url = "https://pkg.machengine.org/vulkan-zig-generated/b2cb02b.tar.gz",
+            .hash = "122080249197eef2dc5290874ead429285741bcd509b57badc22b716f2630d78149e",
         },
     },
 }
